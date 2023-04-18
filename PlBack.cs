@@ -25,7 +25,7 @@ namespace PlBack
             Instance = null;
             UnturnedPlayerEvents.OnPlayerDeath -= onPlayerDeath;
         }
-        //unload
+        //unload plugin
 
         public override TranslationList DefaultTranslations => new TranslationList()
         {
